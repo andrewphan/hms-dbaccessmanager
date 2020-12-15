@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMSDBAccessManager", "HMSDBAccessManager\HMSDBAccessManager.csproj", "{BA18D562-D6F8-4889-9D54-B82BA959CBC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMSDBAccessManager_Test", "HMSDBAccessManager_Test\HMSDBAccessManager_Test.csproj", "{FA16CBD1-D6AF-4E0A-A3E6-144AE5BE7200}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA18D562-D6F8-4889-9D54-B82BA959CBC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA18D562-D6F8-4889-9D54-B82BA959CBC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA18D562-D6F8-4889-9D54-B82BA959CBC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA18D562-D6F8-4889-9D54-B82BA959CBC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA16CBD1-D6AF-4E0A-A3E6-144AE5BE7200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA16CBD1-D6AF-4E0A-A3E6-144AE5BE7200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA16CBD1-D6AF-4E0A-A3E6-144AE5BE7200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA16CBD1-D6AF-4E0A-A3E6-144AE5BE7200}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C62CC24-6B99-4746-B0AC-9DA1ABE961D8}
+	EndGlobalSection
+EndGlobal

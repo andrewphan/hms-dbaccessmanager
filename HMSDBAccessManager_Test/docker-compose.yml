@@ -1,0 +1,17 @@
+﻿version: "3.9"
+services:
+    mysqlserver:
+        image: "mysql:latest"
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+        ports:
+            - 3033:3033
+    sqlserver:
+        image: "microsoft/mssql-server-linux:2017-CU3"
+        environment:
+            - ACCEPT_EULA=Y
+            - SA_PASSWORD=Password1
+        ports:
+            - 1433:1433
+
+    
