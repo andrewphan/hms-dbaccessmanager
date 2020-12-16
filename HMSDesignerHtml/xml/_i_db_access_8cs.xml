@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_i_db_access_8cs" kind="file" language="C#">
+    <compoundname>IDbAccess.cs</compoundname>
+    <innerclass refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" prot="public">DBAccessManager::Interfaces::IDbAccess</innerclass>
+    <innernamespace refid="namespace_d_b_access_manager">DBAccessManager</innernamespace>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_interfaces">DBAccessManager::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_d_b_access_manager" kindref="compound">DBAccessManager</ref>.<ref refid="namespace_d_b_access_manager_1_1_implementations" kindref="compound">Implementations</ref>;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_h_m_s_d_b_access_manager" kindref="compound">HMSDBAccessManager</ref>.<ref refid="namespace_h_m_s_d_b_access_manager_1_1_implementations" kindref="compound">Implementations</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_d_b_access_manager_1_1_interfaces" kindref="compound">DBAccessManager.Interfaces</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" kindref="compound">IDbAccess</ref><sp/>:<sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" kindref="compound">IPersistenceManager</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1ae3e987a146cc8d01dd17c8befbb73c16" kindref="member">DatabaseName</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1afd0e909c9f84ce6ec63e083d5d7ff3da" kindref="member">Configuration</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1a934fa20c4223c8025aada14b6c75b66b" kindref="member">Prepare</ref>();</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Interfaces/IDbAccess.cs"/>
+  </compounddef>
+</doxygen>

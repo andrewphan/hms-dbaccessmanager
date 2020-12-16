@@ -1,0 +1,114 @@
+\hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access}{}\doxysection{D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access Class Reference}
+\label{class_d_b_access_manager_1_1_abstract_d_b_access}\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+Inheritance diagram for D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_d_b_access_manager_1_1_abstract_d_b_access}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a0e03c53b04339fabf389bd83cafac90e}{Abstract\+D\+B\+Access}} ()
+\item 
+virtual void \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a8c9ad099a105c0ae89cec2022321a74a}{Prepare}} ()
+\item 
+int \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a594e1c0a3df9c61f2e756093afaaa6b0}{Insert}} (string entity\+Name, Key\+Value\+List insert\+Records)
+\item 
+int \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a7d25aee9e7cb183c440491cc147eea90}{Update}} (string entity\+Name, Key\+Value\+List update\+Records)
+\item 
+int \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a1f2924fd70880da57635f74954e2cbaa}{Delete}} (string entity\+Name, Key\+Value\+List delete\+Record)
+\item 
+List$<$ Dictionary$<$ string, string $>$ $>$ \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_accd2bb3b19ceb41eced9106aa63a6912}{Execute\+Query}} (string query, Key\+Value\+List parameters)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_ab1b44eacdb591d7ddcccdd7dbcf0ab66}{D\+B\+M\+S\+Name}} =$>$ this.\+Configuration.\+Dbms\+Name
+\item 
+string \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a622c624f90b0fc1f20c31dfa86a91da9}{Dbms\+Name}} =$>$ this.\+Configuration.\+Dbms\+Name
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_aa9937b0e9d4e8df2f597c1890595c5c4}{Database\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+D\+B\+Connection\+Info \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a654c5a36f11d29e465b569b143551820}{Configuration}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a0e03c53b04339fabf389bd83cafac90e}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a0e03c53b04339fabf389bd83cafac90e}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!AbstractDBAccess@{AbstractDBAccess}}
+\index{AbstractDBAccess@{AbstractDBAccess}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{AbstractDBAccess()}{AbstractDBAccess()}}
+{\footnotesize\ttfamily D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Abstract\+D\+B\+Access (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a1f2924fd70880da57635f74954e2cbaa}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a1f2924fd70880da57635f74954e2cbaa}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!Delete@{Delete}}
+\index{Delete@{Delete}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily int D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Delete (\begin{DoxyParamCaption}\item[{string}]{entity\+Name,  }\item[{Key\+Value\+List}]{delete\+Record }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_accd2bb3b19ceb41eced9106aa63a6912}\label{class_d_b_access_manager_1_1_abstract_d_b_access_accd2bb3b19ceb41eced9106aa63a6912}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!ExecuteQuery@{ExecuteQuery}}
+\index{ExecuteQuery@{ExecuteQuery}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{ExecuteQuery()}{ExecuteQuery()}}
+{\footnotesize\ttfamily List$<$Dictionary$<$string, string$>$ $>$ D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Execute\+Query (\begin{DoxyParamCaption}\item[{string}]{query,  }\item[{Key\+Value\+List}]{parameters }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a594e1c0a3df9c61f2e756093afaaa6b0}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a594e1c0a3df9c61f2e756093afaaa6b0}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!Insert@{Insert}}
+\index{Insert@{Insert}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily int D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Insert (\begin{DoxyParamCaption}\item[{string}]{entity\+Name,  }\item[{Key\+Value\+List}]{insert\+Records }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a8c9ad099a105c0ae89cec2022321a74a}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a8c9ad099a105c0ae89cec2022321a74a}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!Prepare@{Prepare}}
+\index{Prepare@{Prepare}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{Prepare()}{Prepare()}}
+{\footnotesize\ttfamily virtual void D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Prepare (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a7d25aee9e7cb183c440491cc147eea90}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a7d25aee9e7cb183c440491cc147eea90}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!Update@{Update}}
+\index{Update@{Update}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily int D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Update (\begin{DoxyParamCaption}\item[{string}]{entity\+Name,  }\item[{Key\+Value\+List}]{update\+Records }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_ab1b44eacdb591d7ddcccdd7dbcf0ab66}\label{class_d_b_access_manager_1_1_abstract_d_b_access_ab1b44eacdb591d7ddcccdd7dbcf0ab66}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!DBMSName@{DBMSName}}
+\index{DBMSName@{DBMSName}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{DBMSName}{DBMSName}}
+{\footnotesize\ttfamily string D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+D\+B\+M\+S\+Name =$>$ this.\+Configuration.\+Dbms\+Name}
+
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a622c624f90b0fc1f20c31dfa86a91da9}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a622c624f90b0fc1f20c31dfa86a91da9}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!DbmsName@{DbmsName}}
+\index{DbmsName@{DbmsName}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{DbmsName}{DbmsName}}
+{\footnotesize\ttfamily string D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Dbms\+Name =$>$ this.\+Configuration.\+Dbms\+Name}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_a654c5a36f11d29e465b569b143551820}\label{class_d_b_access_manager_1_1_abstract_d_b_access_a654c5a36f11d29e465b569b143551820}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!Configuration@{Configuration}}
+\index{Configuration@{Configuration}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{Configuration}{Configuration}}
+{\footnotesize\ttfamily D\+B\+Connection\+Info D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Configuration\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+\mbox{\Hypertarget{class_d_b_access_manager_1_1_abstract_d_b_access_aa9937b0e9d4e8df2f597c1890595c5c4}\label{class_d_b_access_manager_1_1_abstract_d_b_access_aa9937b0e9d4e8df2f597c1890595c5c4}} 
+\index{DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}!DatabaseName@{DatabaseName}}
+\index{DatabaseName@{DatabaseName}!DBAccessManager.AbstractDBAccess@{DBAccessManager.AbstractDBAccess}}
+\doxysubsubsection{\texorpdfstring{DatabaseName}{DatabaseName}}
+{\footnotesize\ttfamily string D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access.\+Database\+Name\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{_abstract_d_b_access_8cs}{Abstract\+D\+B\+Access.\+cs}}\end{DoxyCompactItemize}

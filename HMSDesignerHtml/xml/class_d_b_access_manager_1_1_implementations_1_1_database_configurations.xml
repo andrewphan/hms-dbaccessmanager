@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_d_b_access_manager_1_1_implementations_1_1_database_configurations" kind="class" language="C#" prot="public">
+    <compoundname>DBAccessManager::Implementations::DatabaseConfigurations</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab6e399f1cd65487f56f462d56ce218ac" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IDictionary&lt; string, <ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref> &gt;</type>
+        <definition>IDictionary&lt;string, DBConnectionInfo&gt; DBAccessManager.Implementations.DatabaseConfigurations.Configurations</definition>
+        <argsstring></argsstring>
+        <name>Configurations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/DatabaseConfigurations.cs" line="13" column="28" bodyfile="Implementations/DatabaseConfigurations.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab4881ff0b22fc3f291c2428a27db9cc0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.Implementations.DatabaseConfigurations.DbmsName</definition>
+        <argsstring></argsstring>
+        <name>DbmsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/DatabaseConfigurations.cs" line="15" column="23" bodyfile="Implementations/DatabaseConfigurations.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1aea51b1174a2d1819a5f195b20f374db7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBAccessManager.Implementations.DatabaseConfigurations.DatabaseConfigurations</definition>
+        <argsstring>()</argsstring>
+        <name>DatabaseConfigurations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/DatabaseConfigurations.cs" line="18" column="16" bodyfile="Implementations/DatabaseConfigurations.cs" bodystart="18" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1a4b575a0aaf7e38490c30db5a07837649" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref></type>
+        <definition>DBConnectionInfo DBAccessManager.Implementations.DatabaseConfigurations.GetDatabaseInfoByDBName</definition>
+        <argsstring>(string databaseName)</argsstring>
+        <name>GetDatabaseInfoByDBName</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/DatabaseConfigurations.cs" line="22" column="33" bodyfile="Implementations/DatabaseConfigurations.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Implementations/DatabaseConfigurations.cs" line="8" column="11" bodyfile="Implementations/DatabaseConfigurations.cs" bodystart="9" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab6e399f1cd65487f56f462d56ce218ac" prot="public" virt="non-virtual"><scope>DBAccessManager::Implementations::DatabaseConfigurations</scope><name>Configurations</name></member>
+      <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1aea51b1174a2d1819a5f195b20f374db7" prot="public" virt="non-virtual"><scope>DBAccessManager::Implementations::DatabaseConfigurations</scope><name>DatabaseConfigurations</name></member>
+      <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab4881ff0b22fc3f291c2428a27db9cc0" prot="public" virt="non-virtual"><scope>DBAccessManager::Implementations::DatabaseConfigurations</scope><name>DbmsName</name></member>
+      <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1a4b575a0aaf7e38490c30db5a07837649" prot="public" virt="non-virtual"><scope>DBAccessManager::Implementations::DatabaseConfigurations</scope><name>GetDatabaseInfoByDBName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

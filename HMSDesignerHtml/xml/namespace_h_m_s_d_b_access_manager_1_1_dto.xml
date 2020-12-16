@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespace_h_m_s_d_b_access_manager_1_1_dto" kind="namespace" language="C#">
+    <compoundname>HMSDBAccessManager::Dto</compoundname>
+    <innerclass refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_result_set" prot="public">HMSDBAccessManager::Dto::ResultSet</innerclass>
+    <innerclass refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_row" prot="public">HMSDBAccessManager::Dto::Row</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dto/ResultSet.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,81 @@
+\hypertarget{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager}{}\doxysection{D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager Interface Reference}
+\label{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager}\index{DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}}
+Inheritance diagram for D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.435897cm]{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_aa8ed4aaf2bfbac093fd13cd21997720c}{Insert}} (string entity\+Name, \mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}} insert\+Records)
+\item 
+int \mbox{\hyperlink{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_a2a244a57af586a171021e3a4a96f8a41}{Update}} (string entity\+Name, \mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}} update\+Records)
+\item 
+int \mbox{\hyperlink{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_ab322f2a0b46d7030455b7b0b24b08a86}{Delete}} (string entity\+Name, \mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}} delete\+Record)
+\item 
+List$<$ Dictionary$<$ string, string $>$ $>$ \mbox{\hyperlink{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_ad1af812ed97df2f6652e8a74d96b5452}{Execute\+Query}} (string query, \mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}} parameters)
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_a75b79c07ce886df285ff5b74912b913c}{Dbms\+Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_ab322f2a0b46d7030455b7b0b24b08a86}\label{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_ab322f2a0b46d7030455b7b0b24b08a86}} 
+\index{DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}!Delete@{Delete}}
+\index{Delete@{Delete}!DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}}
+\doxysubsubsection{\texorpdfstring{Delete()}{Delete()}}
+{\footnotesize\ttfamily int D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager.\+Delete (\begin{DoxyParamCaption}\item[{string}]{entity\+Name,  }\item[{\mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}}}]{delete\+Record }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_d_b_access_manager_1_1_persistence_manager_aaadc6b07061155a06c21d699c333367c}{D\+B\+Access\+Manager.\+Persistence\+Manager}}, and \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a1f2924fd70880da57635f74954e2cbaa}{D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access}}.
+
+\mbox{\Hypertarget{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_ad1af812ed97df2f6652e8a74d96b5452}\label{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_ad1af812ed97df2f6652e8a74d96b5452}} 
+\index{DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}!ExecuteQuery@{ExecuteQuery}}
+\index{ExecuteQuery@{ExecuteQuery}!DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}}
+\doxysubsubsection{\texorpdfstring{ExecuteQuery()}{ExecuteQuery()}}
+{\footnotesize\ttfamily List$<$Dictionary$<$string, string$>$ $>$ D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager.\+Execute\+Query (\begin{DoxyParamCaption}\item[{string}]{query,  }\item[{\mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}}}]{parameters }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_d_b_access_manager_1_1_persistence_manager_a8a1c1b82864aa1cb7d78a2401d3843dd}{D\+B\+Access\+Manager.\+Persistence\+Manager}}, and \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_accd2bb3b19ceb41eced9106aa63a6912}{D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access}}.
+
+\mbox{\Hypertarget{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_aa8ed4aaf2bfbac093fd13cd21997720c}\label{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_aa8ed4aaf2bfbac093fd13cd21997720c}} 
+\index{DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}!Insert@{Insert}}
+\index{Insert@{Insert}!DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}}
+\doxysubsubsection{\texorpdfstring{Insert()}{Insert()}}
+{\footnotesize\ttfamily int D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager.\+Insert (\begin{DoxyParamCaption}\item[{string}]{entity\+Name,  }\item[{\mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}}}]{insert\+Records }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_d_b_access_manager_1_1_persistence_manager_ad05c33ae5670bb56beb2ada21315e333}{D\+B\+Access\+Manager.\+Persistence\+Manager}}, and \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a594e1c0a3df9c61f2e756093afaaa6b0}{D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access}}.
+
+\mbox{\Hypertarget{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_a2a244a57af586a171021e3a4a96f8a41}\label{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_a2a244a57af586a171021e3a4a96f8a41}} 
+\index{DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}!Update@{Update}}
+\index{Update@{Update}!DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily int D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager.\+Update (\begin{DoxyParamCaption}\item[{string}]{entity\+Name,  }\item[{\mbox{\hyperlink{class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list}{Key\+Value\+List}}}]{update\+Records }\end{DoxyParamCaption})}
+
+
+
+Implemented in \mbox{\hyperlink{class_d_b_access_manager_1_1_persistence_manager_af79b130b2c079e2cb2e41d46f88b08c0}{D\+B\+Access\+Manager.\+Persistence\+Manager}}, and \mbox{\hyperlink{class_d_b_access_manager_1_1_abstract_d_b_access_a7d25aee9e7cb183c440491cc147eea90}{D\+B\+Access\+Manager.\+Abstract\+D\+B\+Access}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_a75b79c07ce886df285ff5b74912b913c}\label{interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_a75b79c07ce886df285ff5b74912b913c}} 
+\index{DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}!DbmsName@{DbmsName}}
+\index{DbmsName@{DbmsName}!DBAccessManager.Interfaces.IPersistenceManager@{DBAccessManager.Interfaces.IPersistenceManager}}
+\doxysubsubsection{\texorpdfstring{DbmsName}{DbmsName}}
+{\footnotesize\ttfamily string D\+B\+Access\+Manager.\+Interfaces.\+I\+Persistence\+Manager.\+Dbms\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+The documentation for this interface was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Interfaces/\mbox{\hyperlink{_i_persistence_manager_8cs}{I\+Persistence\+Manager.\+cs}}\end{DoxyCompactItemize}

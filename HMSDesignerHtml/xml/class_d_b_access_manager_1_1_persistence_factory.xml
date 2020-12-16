@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_d_b_access_manager_1_1_persistence_factory" kind="class" language="C#" prot="public">
+    <compoundname>DBAccessManager::PersistenceFactory</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_factory_1a24adb7613b9144d6d86394e264268641" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBAccessManager.PersistenceFactory.PersistenceFactory</definition>
+        <argsstring>()</argsstring>
+        <name>PersistenceFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PersistenceFactory.cs" line="11" column="16" bodyfile="PersistenceFactory.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_factory_1ae2b2af51c257c7c93ac2c87c43ff0a3d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" kindref="compound">IPersistenceManager</ref></type>
+        <definition>static IPersistenceManager DBAccessManager.PersistenceFactory.GetDatabase</definition>
+        <argsstring>(string dbName)</argsstring>
+        <name>GetDatabase</name>
+        <param>
+          <type>string</type>
+          <declname>dbName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="PersistenceFactory.cs" line="15" column="43" bodyfile="PersistenceFactory.cs" bodystart="15" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class <ref refid="class_d_b_access_manager_1_1_persistence_factory" kindref="compound">PersistenceFactory</ref> creates a Facades for the databases </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="PersistenceFactory.cs" line="9" column="18" bodyfile="PersistenceFactory.cs" bodystart="10" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_d_b_access_manager_1_1_persistence_factory_1ae2b2af51c257c7c93ac2c87c43ff0a3d" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceFactory</scope><name>GetDatabase</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_factory_1a24adb7613b9144d6d86394e264268641" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceFactory</scope><name>PersistenceFactory</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

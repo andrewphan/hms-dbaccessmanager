@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" kind="interface" language="C#" prot="public">
+    <compoundname>DBAccessManager::Interfaces::IPersistenceManager</compoundname>
+    <derivedcompoundref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" prot="public" virt="non-virtual">DBAccessManager.Interfaces.IDbAccess</derivedcompoundref>
+    <derivedcompoundref refid="class_d_b_access_manager_1_1_persistence_manager" prot="public" virt="non-virtual">DBAccessManager.PersistenceManager</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a75b79c07ce886df285ff5b74912b913c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.Interfaces.IPersistenceManager.DbmsName</definition>
+        <argsstring></argsstring>
+        <name>DbmsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IPersistenceManager.cs" line="9" column="16" bodyfile="Interfaces/IPersistenceManager.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.Interfaces.IPersistenceManager.Insert</definition>
+        <argsstring>(string entityName, KeyValueList insertRecords)</argsstring>
+        <name>Insert</name>
+        <reimplementedby refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a594e1c0a3df9c61f2e756093afaaa6b0">Insert</reimplementedby>
+        <reimplementedby refid="class_d_b_access_manager_1_1_persistence_manager_1ad05c33ae5670bb56beb2ada21315e333">Insert</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>insertRecords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IPersistenceManager.cs" line="11" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.Interfaces.IPersistenceManager.Update</definition>
+        <argsstring>(string entityName, KeyValueList updateRecords)</argsstring>
+        <name>Update</name>
+        <reimplementedby refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a7d25aee9e7cb183c440491cc147eea90">Update</reimplementedby>
+        <reimplementedby refid="class_d_b_access_manager_1_1_persistence_manager_1af79b130b2c079e2cb2e41d46f88b08c0">Update</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>updateRecords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IPersistenceManager.cs" line="12" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.Interfaces.IPersistenceManager.Delete</definition>
+        <argsstring>(string entityName, KeyValueList deleteRecord)</argsstring>
+        <name>Delete</name>
+        <reimplementedby refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a1f2924fd70880da57635f74954e2cbaa">Delete</reimplementedby>
+        <reimplementedby refid="class_d_b_access_manager_1_1_persistence_manager_1aaadc6b07061155a06c21d699c333367c">Delete</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>deleteRecord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IPersistenceManager.cs" line="13" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>List&lt; Dictionary&lt; string, string &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;string, string&gt; &gt; DBAccessManager.Interfaces.IPersistenceManager.ExecuteQuery</definition>
+        <argsstring>(string query, KeyValueList parameters)</argsstring>
+        <name>ExecuteQuery</name>
+        <reimplementedby refid="class_d_b_access_manager_1_1_abstract_d_b_access_1accd2bb3b19ceb41eced9106aa63a6912">ExecuteQuery</reimplementedby>
+        <reimplementedby refid="class_d_b_access_manager_1_1_persistence_manager_1a8a1c1b82864aa1cb7d78a2401d3843dd">ExecuteQuery</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IPersistenceManager.cs" line="15" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>DBAccessManager.SQL.SQLite.SqliteDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite_1_1_sqlite_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>DBAccessManager.Interfaces.IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>DBAccessManager.PersistenceManager</label>
+        <link refid="class_d_b_access_manager_1_1_persistence_manager"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DBAccessManager.SQL.PostgreSQL.PostgreSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l_1_1_postgre_sql_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DBAccessManager.AbstractDBAccess</label>
+        <link refid="class_d_b_access_manager_1_1_abstract_d_b_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DBAccessManager.Interfaces.IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+      <node id="5">
+        <label>DBAccessManager.SQL.MySQL.MySqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l_1_1_my_sql_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="Interfaces/IPersistenceManager.cs" line="7" column="22" bodyfile="Interfaces/IPersistenceManager.cs" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a75b79c07ce886df285ff5b74912b913c" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IPersistenceManager</scope><name>DbmsName</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IPersistenceManager</scope><name>Delete</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IPersistenceManager</scope><name>ExecuteQuery</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IPersistenceManager</scope><name>Insert</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IPersistenceManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

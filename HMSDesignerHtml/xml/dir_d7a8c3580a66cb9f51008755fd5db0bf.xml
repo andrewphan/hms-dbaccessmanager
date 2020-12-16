@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_d7a8c3580a66cb9f51008755fd5db0bf" kind="dir">
+    <compoundname>Implementations</compoundname>
+    <innerfile refid="_database_configurations_8cs">DatabaseConfigurations.cs</innerfile>
+    <innerfile refid="_persistence_manager_8cs">PersistenceManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Implementations/"/>
+  </compounddef>
+</doxygen>

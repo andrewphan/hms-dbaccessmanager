@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_database_configurations_8cs" kind="file" language="C#">
+    <compoundname>DatabaseConfigurations.cs</compoundname>
+    <innerclass refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations" prot="public">DBAccessManager::Implementations::DatabaseConfigurations</innerclass>
+    <innernamespace refid="namespace_d_b_access_manager">DBAccessManager</innernamespace>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_implementations">DBAccessManager::Implementations</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_d_b_access_manager" kindref="compound">DBAccessManager</ref>.<ref refid="namespace_d_b_access_manager_1_1_interfaces" kindref="compound">Interfaces</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_h_m_s_d_b_access_manager" kindref="compound">HMSDBAccessManager</ref>.<ref refid="namespace_h_m_s_d_b_access_manager_1_1_implementations" kindref="compound">Implementations</ref>;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_d_b_access_manager_1_1_implementations" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_d_b_access_manager_1_1_implementations" kindref="compound">DBAccessManager.Implementations</ref></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="8" refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations" kindref="compound">DatabaseConfigurations</ref><sp/></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Reading<sp/>from<sp/>application<sp/>configuraiton.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>The<sp/>file<sp/>app.config<sp/>could<sp/>be<sp/>moved<sp/>to<sp/>another<sp/>location<sp/>for</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>end<sp/>user<sp/>or<sp/>support<sp/>team<sp/>to<sp/>configure</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IDictionary&lt;string,<sp/>DBConnectionInfo&gt;<sp/><ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab6e399f1cd65487f56f462d56ce218ac" kindref="member">Configurations</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab4881ff0b22fc3f291c2428a27db9cc0" kindref="member">DbmsName</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal"><sp/>=&gt;<sp/></highlight><highlight class="keywordflow">throw</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>NotImplementedException();<sp/>}</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1aea51b1174a2d1819a5f195b20f374db7" kindref="member">DatabaseConfigurations</ref>()</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref><sp/><ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1a4b575a0aaf7e38490c30db5a07837649" kindref="member">GetDatabaseInfoByDBName</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>databaseName)</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this.<ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab6e399f1cd65487f56f462d56ce218ac" kindref="member">Configurations</ref>[databaseName];</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Implementations/DatabaseConfigurations.cs"/>
+  </compounddef>
+</doxygen>

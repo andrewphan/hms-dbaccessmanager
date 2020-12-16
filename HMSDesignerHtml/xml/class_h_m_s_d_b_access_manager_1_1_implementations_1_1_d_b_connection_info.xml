@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kind="class" language="C#" prot="public">
+    <compoundname>HMSDBAccessManager::Implementations::DBConnectionInfo</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1ae35d67a92c52e003a7535abb6b4a83e2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string HMSDBAccessManager.Implementations.DBConnectionInfo.DbmsName</definition>
+        <argsstring></argsstring>
+        <name>DbmsName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dto/DBConnectionInfo.cs" line="6" column="23" bodyfile="Dto/DBConnectionInfo.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1a5abe11b5693e8af9869b8bb2e0c0d470" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string HMSDBAccessManager.Implementations.DBConnectionInfo.DatabaseName</definition>
+        <argsstring></argsstring>
+        <name>DatabaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dto/DBConnectionInfo.cs" line="7" column="23" bodyfile="Dto/DBConnectionInfo.cs" bodystart="7" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1ac4ff9da0537bdc52a49ef2233da12e87" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string HMSDBAccessManager.Implementations.DBConnectionInfo.ConnectionString</definition>
+        <argsstring></argsstring>
+        <name>ConnectionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dto/DBConnectionInfo.cs" line="8" column="23" bodyfile="Dto/DBConnectionInfo.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1abcb60824b5a46338ff2b410eec43418d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string HMSDBAccessManager.Implementations.DBConnectionInfo.DbFileName</definition>
+        <argsstring></argsstring>
+        <name>DbFileName</name>
+        <briefdescription>
+<para>SQLite Database File name </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dto/DBConnectionInfo.cs" line="13" column="23" bodyfile="Dto/DBConnectionInfo.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1a5d5e15f1345452cdb38c7623d4f8471d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HMSDBAccessManager.Implementations.DBConnectionInfo.DBConnectionInfo</definition>
+        <argsstring>()</argsstring>
+        <name>DBConnectionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dto/DBConnectionInfo.cs" line="15" column="16" bodyfile="Dto/DBConnectionInfo.cs" bodystart="15" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dto/DBConnectionInfo.cs" line="4" column="11" bodyfile="Dto/DBConnectionInfo.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1ac4ff9da0537bdc52a49ef2233da12e87" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::Implementations::DBConnectionInfo</scope><name>ConnectionString</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1a5abe11b5693e8af9869b8bb2e0c0d470" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::Implementations::DBConnectionInfo</scope><name>DatabaseName</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1a5d5e15f1345452cdb38c7623d4f8471d" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::Implementations::DBConnectionInfo</scope><name>DBConnectionInfo</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1abcb60824b5a46338ff2b410eec43418d" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::Implementations::DBConnectionInfo</scope><name>DbFileName</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1ae35d67a92c52e003a7535abb6b4a83e2" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::Implementations::DBConnectionInfo</scope><name>DbmsName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_0ccb68387d9136c295cc472a658b0e07" kind="dir">
+    <compoundname>SQL/MySQL</compoundname>
+    <innerfile refid="_my_sql_database_access_8cs">MySqlDatabaseAccess.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SQL/MySQL/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="interface_d_b_access_manager_1_1_interfaces_1_1_i_database_configuration" kind="interface" language="C#" prot="public">
+    <compoundname>DBAccessManager::Interfaces::IDatabaseConfiguration</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_database_configuration_1adba8526b601df9c0108817ba7770d049" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IDictionary&lt; string, <ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref> &gt;</type>
+        <definition>IDictionary&lt;string, DBConnectionInfo&gt; DBAccessManager.Interfaces.IDatabaseConfiguration.DatabaseConfigurations</definition>
+        <argsstring></argsstring>
+        <name>DatabaseConfigurations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IDatabaseConfiguration.cs" line="9" column="21" bodyfile="Interfaces/IDatabaseConfiguration.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Interfaces/IDatabaseConfiguration.cs" line="7" column="22" bodyfile="Interfaces/IDatabaseConfiguration.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_database_configuration_1adba8526b601df9c0108817ba7770d049" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDatabaseConfiguration</scope><name>DatabaseConfigurations</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

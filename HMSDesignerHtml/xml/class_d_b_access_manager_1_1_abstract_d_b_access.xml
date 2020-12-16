@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_d_b_access_manager_1_1_abstract_d_b_access" kind="class" language="C#" prot="public">
+    <compoundname>DBAccessManager::AbstractDBAccess</compoundname>
+    <basecompoundref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" prot="public" virt="non-virtual">DBAccessManager.Interfaces.IDbAccess</basecompoundref>
+    <derivedcompoundref refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access" prot="public" virt="non-virtual">DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess</derivedcompoundref>
+    <derivedcompoundref refid="class_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l_1_1_my_sql_database_access" prot="public" virt="non-virtual">DBAccessManager.SQL.MySQL.MySqlDatabaseAccess</derivedcompoundref>
+    <derivedcompoundref refid="class_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l_1_1_postgre_sql_database_access" prot="public" virt="non-virtual">DBAccessManager.SQL.PostgreSQL.PostgreSqlDatabaseAccess</derivedcompoundref>
+    <derivedcompoundref refid="class_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite_1_1_sqlite_database_access" prot="public" virt="non-virtual">DBAccessManager.SQL.SQLite.SqliteDatabaseAccess</derivedcompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_b_access_manager_1_1_abstract_d_b_access_1ab1b44eacdb591d7ddcccdd7dbcf0ab66" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.AbstractDBAccess.DBMSName</definition>
+        <argsstring></argsstring>
+        <name>DBMSName</name>
+        <initializer>=&gt; this.Configuration.DbmsName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="13" column="23" bodyfile="AbstractDBAccess.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a622c624f90b0fc1f20c31dfa86a91da9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.AbstractDBAccess.DbmsName</definition>
+        <argsstring></argsstring>
+        <name>DbmsName</name>
+        <initializer>=&gt; this.Configuration.DbmsName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="29" column="23" bodyfile="AbstractDBAccess.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_b_access_manager_1_1_abstract_d_b_access_1afc79cbee1f7655c3dc991f803fcccafc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.AbstractDBAccess._databaseName</definition>
+        <argsstring></argsstring>
+        <name>_databaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="14" column="24" bodyfile="AbstractDBAccess.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_abstract_d_b_access_1aa9937b0e9d4e8df2f597c1890595c5c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.AbstractDBAccess.DatabaseName</definition>
+        <argsstring></argsstring>
+        <name>DatabaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="15" column="23" bodyfile="AbstractDBAccess.cs" bodystart="16" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a654c5a36f11d29e465b569b143551820" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref></type>
+        <definition>DBConnectionInfo DBAccessManager.AbstractDBAccess.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="27" column="33" bodyfile="AbstractDBAccess.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a0e03c53b04339fabf389bd83cafac90e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBAccessManager.AbstractDBAccess.AbstractDBAccess</definition>
+        <argsstring>()</argsstring>
+        <name>AbstractDBAccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="33" column="16" bodyfile="AbstractDBAccess.cs" bodystart="33" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a8c9ad099a105c0ae89cec2022321a74a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DBAccessManager.AbstractDBAccess.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1a934fa20c4223c8025aada14b6c75b66b">Prepare</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="37" column="29" bodyfile="AbstractDBAccess.cs" bodystart="37" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a594e1c0a3df9c61f2e756093afaaa6b0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.AbstractDBAccess.Insert</definition>
+        <argsstring>(string entityName, KeyValueList insertRecords)</argsstring>
+        <name>Insert</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c">Insert</reimplements>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>insertRecords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="47" column="20" bodyfile="AbstractDBAccess.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a7d25aee9e7cb183c440491cc147eea90" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.AbstractDBAccess.Update</definition>
+        <argsstring>(string entityName, KeyValueList updateRecords)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41">Update</reimplements>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>updateRecords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="52" column="20" bodyfile="AbstractDBAccess.cs" bodystart="52" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_abstract_d_b_access_1a1f2924fd70880da57635f74954e2cbaa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.AbstractDBAccess.Delete</definition>
+        <argsstring>(string entityName, KeyValueList deleteRecord)</argsstring>
+        <name>Delete</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86">Delete</reimplements>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>deleteRecord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="57" column="20" bodyfile="AbstractDBAccess.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_abstract_d_b_access_1accd2bb3b19ceb41eced9106aa63a6912" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Dictionary&lt; string, string &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;string, string&gt; &gt; DBAccessManager.AbstractDBAccess.ExecuteQuery</definition>
+        <argsstring>(string query, KeyValueList parameters)</argsstring>
+        <name>ExecuteQuery</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452">ExecuteQuery</reimplements>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="AbstractDBAccess.cs" line="62" column="21" bodyfile="AbstractDBAccess.cs" bodystart="62" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>DBAccessManager.SQL.SQLite.SqliteDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite_1_1_sqlite_database_access"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DBAccessManager.SQL.PostgreSQL.PostgreSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l_1_1_postgre_sql_database_access"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+      <node id="4">
+        <label>DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DBAccessManager.AbstractDBAccess</label>
+        <link refid="class_d_b_access_manager_1_1_abstract_d_b_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DBAccessManager.SQL.MySQL.MySqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l_1_1_my_sql_database_access"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="3">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+      <node id="2">
+        <label>IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DBAccessManager.AbstractDBAccess</label>
+        <link refid="class_d_b_access_manager_1_1_abstract_d_b_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="AbstractDBAccess.cs" line="11" column="21" bodyfile="AbstractDBAccess.cs" bodystart="12" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1afc79cbee1f7655c3dc991f803fcccafc" prot="private" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>_databaseName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a0e03c53b04339fabf389bd83cafac90e" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>AbstractDBAccess</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a654c5a36f11d29e465b569b143551820" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>Configuration</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1aa9937b0e9d4e8df2f597c1890595c5c4" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>DatabaseName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1ab1b44eacdb591d7ddcccdd7dbcf0ab66" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>DBMSName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a622c624f90b0fc1f20c31dfa86a91da9" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>DbmsName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a1f2924fd70880da57635f74954e2cbaa" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>Delete</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1accd2bb3b19ceb41eced9106aa63a6912" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>ExecuteQuery</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a594e1c0a3df9c61f2e756093afaaa6b0" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>Insert</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a8c9ad099a105c0ae89cec2022321a74a" prot="public" virt="virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>Prepare</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a7d25aee9e7cb183c440491cc147eea90" prot="public" virt="non-virtual"><scope>DBAccessManager::AbstractDBAccess</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

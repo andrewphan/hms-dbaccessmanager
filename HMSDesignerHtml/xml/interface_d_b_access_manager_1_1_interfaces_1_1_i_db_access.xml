@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" kind="interface" language="C#" prot="public">
+    <compoundname>DBAccessManager::Interfaces::IDbAccess</compoundname>
+    <basecompoundref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" prot="public" virt="non-virtual">DBAccessManager.Interfaces.IPersistenceManager</basecompoundref>
+    <derivedcompoundref refid="class_d_b_access_manager_1_1_abstract_d_b_access" prot="public" virt="non-virtual">DBAccessManager.AbstractDBAccess</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1ae3e987a146cc8d01dd17c8befbb73c16" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.Interfaces.IDbAccess.DatabaseName</definition>
+        <argsstring></argsstring>
+        <name>DatabaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IDbAccess.cs" line="9" column="16" bodyfile="Interfaces/IDbAccess.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1afd0e909c9f84ce6ec63e083d5d7ff3da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref></type>
+        <definition>DBConnectionInfo DBAccessManager.Interfaces.IDbAccess.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IDbAccess.cs" line="10" column="26" bodyfile="Interfaces/IDbAccess.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1a934fa20c4223c8025aada14b6c75b66b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBAccessManager.Interfaces.IDbAccess.Prepare</definition>
+        <argsstring>()</argsstring>
+        <name>Prepare</name>
+        <reimplementedby refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a8c9ad099a105c0ae89cec2022321a74a">Prepare</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Interfaces/IDbAccess.cs" line="11" column="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>DBAccessManager.SQL.SQLite.SqliteDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite_1_1_sqlite_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>DBAccessManager.Interfaces.IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>DBAccessManager.SQL.PostgreSQL.PostgreSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l_1_1_postgre_sql_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+      <node id="4">
+        <label>DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>DBAccessManager.AbstractDBAccess</label>
+        <link refid="class_d_b_access_manager_1_1_abstract_d_b_access"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DBAccessManager.SQL.MySQL.MySqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l_1_1_my_sql_database_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DBAccessManager.Interfaces.IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="Interfaces/IDbAccess.cs" line="7" column="22" bodyfile="Interfaces/IDbAccess.cs" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1afd0e909c9f84ce6ec63e083d5d7ff3da" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>Configuration</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1ae3e987a146cc8d01dd17c8befbb73c16" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>DatabaseName</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a75b79c07ce886df285ff5b74912b913c" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>DbmsName</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>Delete</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>ExecuteQuery</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>Insert</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1a934fa20c4223c8025aada14b6c75b66b" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>Prepare</name></member>
+      <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41" prot="public" virt="non-virtual"><scope>DBAccessManager::Interfaces::IDbAccess</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

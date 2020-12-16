@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_h_m_s_d_b_access_manager_1_1_dto_1_1_result_set" kind="class" language="C#" prot="public">
+    <compoundname>HMSDBAccessManager::Dto::ResultSet</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_m_s_d_b_access_manager_1_1_dto_1_1_result_set_1a07b252c4ddb085ee846167b3afdc4a77" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HMSDBAccessManager.Dto.ResultSet.ResultSet</definition>
+        <argsstring>()</argsstring>
+        <name>ResultSet</name>
+        <briefdescription>
+<para>class implement representative of return result </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Dto/ResultSet.cs" line="9" column="16" bodyfile="Dto/ResultSet.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dto/ResultSet.cs" line="4" column="11" bodyfile="Dto/ResultSet.cs" bodystart="5" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_result_set_1a07b252c4ddb085ee846167b3afdc4a77" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::Dto::ResultSet</scope><name>ResultSet</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

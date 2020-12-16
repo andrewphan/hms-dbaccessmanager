@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespace_h_m_s_d_b_access_manager" kind="namespace" language="C#">
+    <compoundname>HMSDBAccessManager</compoundname>
+    <innerclass refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection" prot="public">HMSDBAccessManager::HMSDatabaseConnection</innerclass>
+    <innernamespace refid="namespace_h_m_s_d_b_access_manager_1_1_dto">HMSDBAccessManager::Dto</innernamespace>
+    <innernamespace refid="namespace_h_m_s_d_b_access_manager_1_1_implementations">HMSDBAccessManager::Implementations</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dto/DBConnectionInfo.cs" line="2" column="1"/>
+  </compounddef>
+</doxygen>

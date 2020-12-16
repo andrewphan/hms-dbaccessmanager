@@ -1,0 +1,192 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.20" xml:lang="en-US">
+  <compound refid="class_d_b_access_manager_1_1_abstract_d_b_access" kind="class"><name>DBAccessManager::AbstractDBAccess</name>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1ab1b44eacdb591d7ddcccdd7dbcf0ab66" kind="variable"><name>DBMSName</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a622c624f90b0fc1f20c31dfa86a91da9" kind="variable"><name>DbmsName</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1afc79cbee1f7655c3dc991f803fcccafc" kind="variable"><name>_databaseName</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1aa9937b0e9d4e8df2f597c1890595c5c4" kind="property"><name>DatabaseName</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a654c5a36f11d29e465b569b143551820" kind="property"><name>Configuration</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a0e03c53b04339fabf389bd83cafac90e" kind="function"><name>AbstractDBAccess</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a8c9ad099a105c0ae89cec2022321a74a" kind="function"><name>Prepare</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a594e1c0a3df9c61f2e756093afaaa6b0" kind="function"><name>Insert</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a7d25aee9e7cb183c440491cc147eea90" kind="function"><name>Update</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a1f2924fd70880da57635f74954e2cbaa" kind="function"><name>Delete</name></member>
+    <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1accd2bb3b19ceb41eced9106aa63a6912" kind="function"><name>ExecuteQuery</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations" kind="class"><name>DBAccessManager::Implementations::DatabaseConfigurations</name>
+    <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab6e399f1cd65487f56f462d56ce218ac" kind="property"><name>Configurations</name></member>
+    <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1ab4881ff0b22fc3f291c2428a27db9cc0" kind="property"><name>DbmsName</name></member>
+    <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1aea51b1174a2d1819a5f195b20f374db7" kind="function"><name>DatabaseConfigurations</name></member>
+    <member refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations_1a4b575a0aaf7e38490c30db5a07837649" kind="function"><name>GetDatabaseInfoByDBName</name></member>
+  </compound>
+  <compound refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kind="class"><name>HMSDBAccessManager::Implementations::DBConnectionInfo</name>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1ae35d67a92c52e003a7535abb6b4a83e2" kind="property"><name>DbmsName</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1a5abe11b5693e8af9869b8bb2e0c0d470" kind="property"><name>DatabaseName</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1ac4ff9da0537bdc52a49ef2233da12e87" kind="property"><name>ConnectionString</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1abcb60824b5a46338ff2b410eec43418d" kind="property"><name>DbFileName</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info_1a5d5e15f1345452cdb38c7623d4f8471d" kind="function"><name>DBConnectionInfo</name></member>
+  </compound>
+  <compound refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection" kind="class"><name>HMSDBAccessManager::HMSDatabaseConnection</name>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ad0add968aa66300227eea4ee26f550fb" kind="variable"><name>_providerFactory</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ab50f818878cf99645bcb1460e519fac5" kind="variable"><name>_databaseName</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ae8843dce7e04322f95e89de60afa2947" kind="function"><name>HMSDatabaseConnection</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1aca0015aea27358f1527a069284e93c78" kind="function"><name>HMSDatabaseConnection</name></member>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1af0ef0d0e61a05f2cad0fa0949adb596b" kind="function"><name>GetInstance&lt; T &gt;</name></member>
+  </compound>
+  <compound refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_database_configuration" kind="interface"><name>DBAccessManager::Interfaces::IDatabaseConfiguration</name>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_database_configuration_1adba8526b601df9c0108817ba7770d049" kind="property"><name>DatabaseConfigurations</name></member>
+  </compound>
+  <compound refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" kind="interface"><name>DBAccessManager::Interfaces::IDbAccess</name>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1ae3e987a146cc8d01dd17c8befbb73c16" kind="property"><name>DatabaseName</name></member>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1afd0e909c9f84ce6ec63e083d5d7ff3da" kind="property"><name>Configuration</name></member>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access_1a934fa20c4223c8025aada14b6c75b66b" kind="function"><name>Prepare</name></member>
+  </compound>
+  <compound refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" kind="interface"><name>DBAccessManager::Interfaces::IPersistenceManager</name>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a75b79c07ce886df285ff5b74912b913c" kind="property"><name>DbmsName</name></member>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c" kind="function"><name>Insert</name></member>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41" kind="function"><name>Update</name></member>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86" kind="function"><name>Delete</name></member>
+    <member refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452" kind="function"><name>ExecuteQuery</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kind="class"><name>DBAccessManager::SQL::KeyValueList</name>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list_1a2d2dfd0c913b3e10754fd2e7dbdf4bd7" kind="property"><name>this[int index]</name></member>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list_1a1b32e2d1ce2b0bf9100ac461b7b76b02" kind="function"><name>KeyValueList</name></member>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list_1a1335e109575652e059f0039457d6133b" kind="function"><name>Add</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access" kind="class"><name>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</name>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access_1a96fbaf380ffbc1a82cbb2f54ed50d2e7" kind="function"><name>MsSqlDatabaseAccess</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l_1_1_my_sql_database_access" kind="class"><name>DBAccessManager::SQL::MySQL::MySqlDatabaseAccess</name>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l_1_1_my_sql_database_access_1a9e51b486930239bae7f6bdf2bcdecb43" kind="function"><name>MySqlDatabaseAccess</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_persistence_factory" kind="class"><name>DBAccessManager::PersistenceFactory</name>
+    <member refid="class_d_b_access_manager_1_1_persistence_factory_1a24adb7613b9144d6d86394e264268641" kind="function"><name>PersistenceFactory</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_factory_1ae2b2af51c257c7c93ac2c87c43ff0a3d" kind="function"><name>GetDatabase</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_persistence_manager" kind="class"><name>DBAccessManager::PersistenceManager</name>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1a9d5c6f4b38f9ca4dd85cf6adda35dada" kind="property"><name>Configurations</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1a098b8592622c1199a1c782a38477ef48" kind="property"><name>ConnectionInfo</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1a9e57de91ce29d9319f0b5f50a6f01c1f" kind="property"><name>DatabaseFacade</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad9756c9efe8733bd8779f751222025b7" kind="variable"><name>DbmsName</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad8dd9296390faab2863f11940cd8fbad" kind="function"><name>PersistenceManager</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1aaadc6b07061155a06c21d699c333367c" kind="function"><name>Delete</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1a8a1c1b82864aa1cb7d78a2401d3843dd" kind="function"><name>ExecuteQuery</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad05c33ae5670bb56beb2ada21315e333" kind="function"><name>Insert</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1af79b130b2c079e2cb2e41d46f88b08c0" kind="function"><name>Update</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1a94ec9b56854074c19c6f68db63d0630b" kind="function"><name>ReadDBConfiguraiont</name></member>
+    <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad9035ac612386bc3825dbec6535d62a0" kind="function"><name>LoadDbAccessClass</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l_1_1_postgre_sql_database_access" kind="class"><name>DBAccessManager::SQL::PostgreSQL::PostgreSqlDatabaseAccess</name>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l_1_1_postgre_sql_database_access_1a658637abbb8706d89f8bdca2c6c57f03" kind="function"><name>PostgreSqlDatabaseAccess</name></member>
+  </compound>
+  <compound refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_result_set" kind="class"><name>HMSDBAccessManager::Dto::ResultSet</name>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_result_set_1a07b252c4ddb085ee846167b3afdc4a77" kind="function"><name>ResultSet</name></member>
+  </compound>
+  <compound refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_row" kind="class"><name>HMSDBAccessManager::Dto::Row</name>
+    <member refid="class_h_m_s_d_b_access_manager_1_1_dto_1_1_row_1a06e284552f94b5aab49e89f00e5d3a60" kind="function"><name>Row</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite_1_1_sqlite_database_access" kind="class"><name>DBAccessManager::SQL::SQLite::SqliteDatabaseAccess</name>
+    <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite_1_1_sqlite_database_access_1a119287b447849ac9c2c5db6b530db87d" kind="function"><name>SqliteDatabaseAccess</name></member>
+  </compound>
+  <compound refid="class_d_b_access_manager_1_1_utilities_1_1_statement_generator" kind="class"><name>DBAccessManager::Utilities::StatementGenerator</name>
+    <member refid="class_d_b_access_manager_1_1_utilities_1_1_statement_generator_1a405b7147f61f97126122a1981ff7530c" kind="function"><name>StatementGenerator</name></member>
+  </compound>
+  <compound refid="namespace_d_b_access_manager" kind="namespace"><name>DBAccessManager</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_implementations" kind="namespace"><name>DBAccessManager::Implementations</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_interfaces" kind="namespace"><name>DBAccessManager::Interfaces</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_s_q_l" kind="namespace"><name>DBAccessManager::SQL</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l" kind="namespace"><name>DBAccessManager::SQL::MSSQL</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_s_q_l_1_1_my_s_q_l" kind="namespace"><name>DBAccessManager::SQL::MySQL</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_s_q_l_1_1_postgre_s_q_l" kind="namespace"><name>DBAccessManager::SQL::PostgreSQL</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_s_q_l_1_1_s_q_lite" kind="namespace"><name>DBAccessManager::SQL::SQLite</name>
+  </compound>
+  <compound refid="namespace_d_b_access_manager_1_1_utilities" kind="namespace"><name>DBAccessManager::Utilities</name>
+  </compound>
+  <compound refid="namespace_h_m_s_d_b_access_manager" kind="namespace"><name>HMSDBAccessManager</name>
+  </compound>
+  <compound refid="namespace_h_m_s_d_b_access_manager_1_1_dto" kind="namespace"><name>HMSDBAccessManager::Dto</name>
+  </compound>
+  <compound refid="namespace_h_m_s_d_b_access_manager_1_1_implementations" kind="namespace"><name>HMSDBAccessManager::Implementations</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_common" kind="namespace"><name>System::Data::Common</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data_1_1_oracle_client" kind="namespace"><name>System::Data::OracleClient</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="_abstract_d_b_access_8cs" kind="file"><name>AbstractDBAccess.cs</name>
+  </compound>
+  <compound refid="_d_b_connection_info_8cs" kind="file"><name>DBConnectionInfo.cs</name>
+  </compound>
+  <compound refid="_result_set_8cs" kind="file"><name>ResultSet.cs</name>
+  </compound>
+  <compound refid="_row_8cs" kind="file"><name>Row.cs</name>
+  </compound>
+  <compound refid="_h_m_s_database_connection_8cs" kind="file"><name>HMSDatabaseConnection.cs</name>
+  </compound>
+  <compound refid="_database_configurations_8cs" kind="file"><name>DatabaseConfigurations.cs</name>
+  </compound>
+  <compound refid="_persistence_manager_8cs" kind="file"><name>PersistenceManager.cs</name>
+  </compound>
+  <compound refid="_i_database_configuration_8cs" kind="file"><name>IDatabaseConfiguration.cs</name>
+  </compound>
+  <compound refid="_i_db_access_8cs" kind="file"><name>IDbAccess.cs</name>
+  </compound>
+  <compound refid="_i_persistence_manager_8cs" kind="file"><name>IPersistenceManager.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_core_app_00_version_0av3_81_8_assembly_attributes_8cs" kind="file"><name>.NETCoreApp,Version=v3.1.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_h_m_s_d_b_access_manager_8_assembly_info_8cs" kind="file"><name>HMSDBAccessManager.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_persistence_factory_8cs" kind="file"><name>PersistenceFactory.cs</name>
+  </compound>
+  <compound refid="_key_value_list_8cs" kind="file"><name>KeyValueList.cs</name>
+  </compound>
+  <compound refid="_ms_sql_database_access_8cs" kind="file"><name>MsSqlDatabaseAccess.cs</name>
+  </compound>
+  <compound refid="_my_sql_database_access_8cs" kind="file"><name>MySqlDatabaseAccess.cs</name>
+  </compound>
+  <compound refid="_postgre_sql_database_access_8cs" kind="file"><name>PostgreSqlDatabaseAccess.cs</name>
+  </compound>
+  <compound refid="_sqlite_database_access_8cs" kind="file"><name>SqliteDatabaseAccess.cs</name>
+  </compound>
+  <compound refid="_statement_generator_8cs" kind="file"><name>StatementGenerator.cs</name>
+  </compound>
+  <compound refid="dir_a71c3b2ad23b9ff58220dd012d201987" kind="dir"><name>obj/Debug</name>
+  </compound>
+  <compound refid="dir_fb608ef958e8ec41170f80a7f2b6ace8" kind="dir"><name>Dto</name>
+  </compound>
+  <compound refid="dir_d7a8c3580a66cb9f51008755fd5db0bf" kind="dir"><name>Implementations</name>
+  </compound>
+  <compound refid="dir_d7a24015de3ad3397ba9b230e38f5b53" kind="dir"><name>Interfaces</name>
+  </compound>
+  <compound refid="dir_bc5b0108231842d24ac643a99600389d" kind="dir"><name>SQL/MSSQL</name>
+  </compound>
+  <compound refid="dir_0ccb68387d9136c295cc472a658b0e07" kind="dir"><name>SQL/MySQL</name>
+  </compound>
+  <compound refid="dir_2c96edb042fae57dc7a0aa62cecc9bd4" kind="dir"><name>obj/Debug/netcoreapp3.1</name>
+  </compound>
+  <compound refid="dir_43724e81dd40e09f32417973865cdd64" kind="dir"><name>obj</name>
+  </compound>
+  <compound refid="dir_6d50071f1c6d485b5c8884ae1d2d9899" kind="dir"><name>SQL/PostgreSQL</name>
+  </compound>
+  <compound refid="dir_5acd0999974efcf9285444e791ce31d5" kind="dir"><name>SQL</name>
+  </compound>
+  <compound refid="dir_2dbde417456362e2625356ab30145c6a" kind="dir"><name>SQL/SQLite</name>
+  </compound>
+  <compound refid="dir_b05a5fa85f84bfc9013183c9d87f9a36" kind="dir"><name>Utilities</name>
+  </compound>
+</doxygenindex>

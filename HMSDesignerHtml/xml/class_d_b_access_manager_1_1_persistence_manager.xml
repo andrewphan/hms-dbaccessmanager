@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_d_b_access_manager_1_1_persistence_manager" kind="class" language="C#" prot="public">
+    <compoundname>DBAccessManager::PersistenceManager</compoundname>
+    <basecompoundref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" prot="public" virt="non-virtual">DBAccessManager.Interfaces.IPersistenceManager</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_persistence_manager_1a9d5c6f4b38f9ca4dd85cf6adda35dada" prot="protected" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_d_b_access_manager_1_1_implementations_1_1_database_configurations" kindref="compound">DatabaseConfigurations</ref></type>
+        <definition>DatabaseConfigurations DBAccessManager.PersistenceManager.Configurations</definition>
+        <argsstring></argsstring>
+        <name>Configurations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="15" column="49" bodyfile="Implementations/PersistenceManager.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_persistence_manager_1a098b8592622c1199a1c782a38477ef48" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_h_m_s_d_b_access_manager_1_1_implementations_1_1_d_b_connection_info" kindref="compound">DBConnectionInfo</ref></type>
+        <definition>DBConnectionInfo DBAccessManager.PersistenceManager.ConnectionInfo</definition>
+        <argsstring></argsstring>
+        <name>ConnectionInfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="16" column="36" bodyfile="Implementations/PersistenceManager.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_b_access_manager_1_1_persistence_manager_1a9e57de91ce29d9319f0b5f50a6f01c1f" prot="protected" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" kindref="compound">IDbAccess</ref></type>
+        <definition>IDbAccess DBAccessManager.PersistenceManager.DatabaseFacade</definition>
+        <argsstring></argsstring>
+        <name>DatabaseFacade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="27" column="29" bodyfile="Implementations/PersistenceManager.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_b_access_manager_1_1_persistence_manager_1ad9756c9efe8733bd8779f751222025b7" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DBAccessManager.PersistenceManager.DbmsName</definition>
+        <argsstring></argsstring>
+        <name>DbmsName</name>
+        <initializer>=&gt; this.ConnectionInfo.DbmsName</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="25" column="23" bodyfile="Implementations/PersistenceManager.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1ad8dd9296390faab2863f11940cd8fbad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBAccessManager.PersistenceManager.PersistenceManager</definition>
+        <argsstring>(string databaseName)</argsstring>
+        <name>PersistenceManager</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="18" column="16" bodyfile="Implementations/PersistenceManager.cs" bodystart="18" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1aaadc6b07061155a06c21d699c333367c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.PersistenceManager.Delete</definition>
+        <argsstring>(string entityName, KeyValueList deleteRecord)</argsstring>
+        <name>Delete</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86">Delete</reimplements>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>deleteRecord</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="42" column="20" bodyfile="Implementations/PersistenceManager.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1a8a1c1b82864aa1cb7d78a2401d3843dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Dictionary&lt; string, string &gt; &gt;</type>
+        <definition>List&lt;Dictionary&lt;string, string&gt; &gt; DBAccessManager.PersistenceManager.ExecuteQuery</definition>
+        <argsstring>(string query, KeyValueList parameters)</argsstring>
+        <name>ExecuteQuery</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452">ExecuteQuery</reimplements>
+        <param>
+          <type>string</type>
+          <declname>query</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="50" column="21" bodyfile="Implementations/PersistenceManager.cs" bodystart="50" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1ad05c33ae5670bb56beb2ada21315e333" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.PersistenceManager.Insert</definition>
+        <argsstring>(string entityName, KeyValueList insertRecords)</argsstring>
+        <name>Insert</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c">Insert</reimplements>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>insertRecords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="56" column="20" bodyfile="Implementations/PersistenceManager.cs" bodystart="56" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1af79b130b2c079e2cb2e41d46f88b08c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DBAccessManager.PersistenceManager.Update</definition>
+        <argsstring>(string entityName, KeyValueList updateRecords)</argsstring>
+        <name>Update</name>
+        <reimplements refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41">Update</reimplements>
+        <param>
+          <type>string</type>
+          <declname>entityName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref></type>
+          <declname>updateRecords</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="64" column="20" bodyfile="Implementations/PersistenceManager.cs" bodystart="64" bodyend="70"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1a94ec9b56854074c19c6f68db63d0630b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBAccessManager.PersistenceManager.ReadDBConfiguraiont</definition>
+        <argsstring>(string databaseName)</argsstring>
+        <name>ReadDBConfiguraiont</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="29" column="22" bodyfile="Implementations/PersistenceManager.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_persistence_manager_1ad9035ac612386bc3825dbec6535d62a0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DBAccessManager.PersistenceManager.LoadDbAccessClass</definition>
+        <argsstring>(string databaseName)</argsstring>
+        <name>LoadDbAccessClass</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Implementations/PersistenceManager.cs" line="34" column="22" bodyfile="Implementations/PersistenceManager.cs" bodystart="34" bodyend="40"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>DBAccessManager.PersistenceManager</label>
+        <link refid="class_d_b_access_manager_1_1_persistence_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>DBAccessManager.PersistenceManager</label>
+        <link refid="class_d_b_access_manager_1_1_persistence_manager"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+    </collaborationgraph>
+    <location file="Implementations/PersistenceManager.cs" line="13" column="11" bodyfile="Implementations/PersistenceManager.cs" bodystart="14" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1a9d5c6f4b38f9ca4dd85cf6adda35dada" prot="protected" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>Configurations</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1a098b8592622c1199a1c782a38477ef48" prot="protected" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>ConnectionInfo</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1a9e57de91ce29d9319f0b5f50a6f01c1f" prot="protected" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>DatabaseFacade</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad9756c9efe8733bd8779f751222025b7" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>DbmsName</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1aaadc6b07061155a06c21d699c333367c" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>Delete</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1a8a1c1b82864aa1cb7d78a2401d3843dd" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>ExecuteQuery</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad05c33ae5670bb56beb2ada21315e333" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>Insert</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad9035ac612386bc3825dbec6535d62a0" prot="private" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>LoadDbAccessClass</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1ad8dd9296390faab2863f11940cd8fbad" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>PersistenceManager</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1a94ec9b56854074c19c6f68db63d0630b" prot="private" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>ReadDBConfiguraiont</name></member>
+      <member refid="class_d_b_access_manager_1_1_persistence_manager_1af79b130b2c079e2cb2e41d46f88b08c0" prot="public" virt="non-virtual"><scope>DBAccessManager::PersistenceManager</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

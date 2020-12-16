@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access" kind="class" language="C#" prot="public">
+    <compoundname>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</compoundname>
+    <basecompoundref refid="class_d_b_access_manager_1_1_abstract_d_b_access" prot="public" virt="non-virtual">DBAccessManager.AbstractDBAccess</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access_1a96fbaf380ffbc1a82cbb2f54ed50d2e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess.MsSqlDatabaseAccess</definition>
+        <argsstring>()</argsstring>
+        <name>MsSqlDatabaseAccess</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="SQL/MSSQL/MsSqlDatabaseAccess.cs" line="6" column="16" bodyfile="SQL/MSSQL/MsSqlDatabaseAccess.cs" bodystart="6" bodyend="8"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+      <node id="1">
+        <label>DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractDBAccess</label>
+        <link refid="class_d_b_access_manager_1_1_abstract_d_b_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>IPersistenceManager</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager"/>
+      </node>
+      <node id="1">
+        <label>DBAccessManager.SQL.MSSQL.MsSqlDatabaseAccess</label>
+        <link refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDbAccess</label>
+        <link refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>AbstractDBAccess</label>
+        <link refid="class_d_b_access_manager_1_1_abstract_d_b_access"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="SQL/MSSQL/MsSqlDatabaseAccess.cs" line="4" column="11" bodyfile="SQL/MSSQL/MsSqlDatabaseAccess.cs" bodystart="5" bodyend="9"/>
+    <listofallmembers>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a0e03c53b04339fabf389bd83cafac90e" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>AbstractDBAccess</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a654c5a36f11d29e465b569b143551820" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>Configuration</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1aa9937b0e9d4e8df2f597c1890595c5c4" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>DatabaseName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1ab1b44eacdb591d7ddcccdd7dbcf0ab66" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>DBMSName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a622c624f90b0fc1f20c31dfa86a91da9" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>DbmsName</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a1f2924fd70880da57635f74954e2cbaa" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>Delete</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1accd2bb3b19ceb41eced9106aa63a6912" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>ExecuteQuery</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a594e1c0a3df9c61f2e756093afaaa6b0" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>Insert</name></member>
+      <member refid="class_d_b_access_manager_1_1_s_q_l_1_1_m_s_s_q_l_1_1_ms_sql_database_access_1a96fbaf380ffbc1a82cbb2f54ed50d2e7" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>MsSqlDatabaseAccess</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a8c9ad099a105c0ae89cec2022321a74a" prot="public" virt="virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>Prepare</name></member>
+      <member refid="class_d_b_access_manager_1_1_abstract_d_b_access_1a7d25aee9e7cb183c440491cc147eea90" prot="public" virt="non-virtual"><scope>DBAccessManager::SQL::MSSQL::MsSqlDatabaseAccess</scope><name>Update</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

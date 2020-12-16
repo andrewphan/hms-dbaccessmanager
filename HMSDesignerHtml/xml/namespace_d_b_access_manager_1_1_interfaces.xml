@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespace_d_b_access_manager_1_1_interfaces" kind="namespace" language="C#">
+    <compoundname>DBAccessManager::Interfaces</compoundname>
+    <innerclass refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_database_configuration" prot="public">DBAccessManager::Interfaces::IDatabaseConfiguration</innerclass>
+    <innerclass refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_db_access" prot="public">DBAccessManager::Interfaces::IDbAccess</innerclass>
+    <innerclass refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" prot="public">DBAccessManager::Interfaces::IPersistenceManager</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Interfaces/IDatabaseConfiguration.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

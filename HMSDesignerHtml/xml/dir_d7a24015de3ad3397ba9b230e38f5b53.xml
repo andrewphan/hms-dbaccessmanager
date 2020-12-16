@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_d7a24015de3ad3397ba9b230e38f5b53" kind="dir">
+    <compoundname>Interfaces</compoundname>
+    <innerfile refid="_i_database_configuration_8cs">IDatabaseConfiguration.cs</innerfile>
+    <innerfile refid="_i_db_access_8cs">IDbAccess.cs</innerfile>
+    <innerfile refid="_i_persistence_manager_8cs">IPersistenceManager.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Interfaces/"/>
+  </compounddef>
+</doxygen>

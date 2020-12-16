@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_6d50071f1c6d485b5c8884ae1d2d9899" kind="dir">
+    <compoundname>SQL/PostgreSQL</compoundname>
+    <innerfile refid="_postgre_sql_database_access_8cs">PostgreSqlDatabaseAccess.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SQL/PostgreSQL/"/>
+  </compounddef>
+</doxygen>

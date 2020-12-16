@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="_i_persistence_manager_8cs" kind="file" language="C#">
+    <compoundname>IPersistenceManager.cs</compoundname>
+    <innerclass refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" prot="public">DBAccessManager::Interfaces::IPersistenceManager</innerclass>
+    <innernamespace refid="namespace_d_b_access_manager">DBAccessManager</innernamespace>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_interfaces">DBAccessManager::Interfaces</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_d_b_access_manager" kindref="compound">DBAccessManager</ref>.<ref refid="namespace_d_b_access_manager_1_1_s_q_l" kindref="compound">SQL</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_d_b_access_manager_1_1_interfaces" kindref="compound">DBAccessManager.Interfaces</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">interface<sp/></highlight><highlight class="normal"><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager" kindref="compound">IPersistenceManager</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a75b79c07ce886df285ff5b74912b913c" kindref="member">DbmsName</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1aa8ed4aaf2bfbac093fd13cd21997720c" kindref="member">Insert</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>entityName,<sp/><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref><sp/>insertRecords);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1a2a244a57af586a171021e3a4a96f8a41" kindref="member">Update</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>entityName,<sp/><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref><sp/>updateRecords);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ab322f2a0b46d7030455b7b0b24b08a86" kindref="member">Delete</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>entityName,<sp/><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref><sp/>deleteRecord);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>List&lt;Dictionary&lt;string,<sp/>string&gt;&gt;<sp/><ref refid="interface_d_b_access_manager_1_1_interfaces_1_1_i_persistence_manager_1ad1af812ed97df2f6652e8a74d96b5452" kindref="member">ExecuteQuery</ref>(</highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>query,<sp/><ref refid="class_d_b_access_manager_1_1_s_q_l_1_1_key_value_list" kindref="compound">KeyValueList</ref><sp/>parameters);</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="17"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="Interfaces/IPersistenceManager.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="namespace_d_b_access_manager" kind="namespace" language="C#">
+    <compoundname>DBAccessManager</compoundname>
+    <innerclass refid="class_d_b_access_manager_1_1_abstract_d_b_access" prot="public">DBAccessManager::AbstractDBAccess</innerclass>
+    <innerclass refid="class_d_b_access_manager_1_1_persistence_factory" prot="public">DBAccessManager::PersistenceFactory</innerclass>
+    <innerclass refid="class_d_b_access_manager_1_1_persistence_manager" prot="public">DBAccessManager::PersistenceManager</innerclass>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_implementations">DBAccessManager::Implementations</innernamespace>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_interfaces">DBAccessManager::Interfaces</innernamespace>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_s_q_l">DBAccessManager::SQL</innernamespace>
+    <innernamespace refid="namespace_d_b_access_manager_1_1_utilities">DBAccessManager::Utilities</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="AbstractDBAccess.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

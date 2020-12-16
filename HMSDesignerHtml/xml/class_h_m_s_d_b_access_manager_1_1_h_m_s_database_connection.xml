@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection" kind="class" language="C#" prot="public">
+    <compoundname>HMSDBAccessManager::HMSDatabaseConnection</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ad0add968aa66300227eea4ee26f550fb" prot="private" static="no" mutable="no">
+        <type>DbProviderFactory</type>
+        <definition>DbProviderFactory HMSDBAccessManager.HMSDatabaseConnection._providerFactory</definition>
+        <argsstring></argsstring>
+        <name>_providerFactory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HMSDatabaseConnection.cs" line="11" column="35" bodyfile="HMSDatabaseConnection.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ab50f818878cf99645bcb1460e519fac5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string HMSDBAccessManager.HMSDatabaseConnection._databaseName</definition>
+        <argsstring></argsstring>
+        <name>_databaseName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HMSDatabaseConnection.cs" line="12" column="24" bodyfile="HMSDatabaseConnection.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ae8843dce7e04322f95e89de60afa2947" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HMSDBAccessManager.HMSDatabaseConnection.HMSDatabaseConnection</definition>
+        <argsstring>(string databaseName)</argsstring>
+        <name>HMSDatabaseConnection</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HMSDatabaseConnection.cs" line="13" column="16" bodyfile="HMSDatabaseConnection.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1aca0015aea27358f1527a069284e93c78" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>HMSDBAccessManager.HMSDatabaseConnection.HMSDatabaseConnection</definition>
+        <argsstring>(string databaseName, Type providerFactory)</argsstring>
+        <name>HMSDatabaseConnection</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>providerFactory</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HMSDatabaseConnection.cs" line="18" column="16" bodyfile="HMSDatabaseConnection.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1af0ef0d0e61a05f2cad0fa0949adb596b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection" kindref="compound">HMSDatabaseConnection</ref></type>
+        <definition>HMSDatabaseConnection HMSDBAccessManager.HMSDatabaseConnection.GetInstance&lt; T &gt;</definition>
+        <argsstring>(string databaseName)</argsstring>
+        <name>GetInstance&lt; T &gt;</name>
+        <param>
+          <type>string</type>
+          <declname>databaseName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="HMSDatabaseConnection.cs" line="24" column="16" bodyfile="HMSDatabaseConnection.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>class to instantiate the approriate connection provider by using DBProviderFactory </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="HMSDatabaseConnection.cs" line="9" column="11" bodyfile="HMSDatabaseConnection.cs" bodystart="10" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ab50f818878cf99645bcb1460e519fac5" prot="private" virt="non-virtual"><scope>HMSDBAccessManager::HMSDatabaseConnection</scope><name>_databaseName</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ad0add968aa66300227eea4ee26f550fb" prot="private" virt="non-virtual"><scope>HMSDBAccessManager::HMSDatabaseConnection</scope><name>_providerFactory</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1af0ef0d0e61a05f2cad0fa0949adb596b" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::HMSDatabaseConnection</scope><name>GetInstance&lt; T &gt;</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1ae8843dce7e04322f95e89de60afa2947" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::HMSDatabaseConnection</scope><name>HMSDatabaseConnection</name></member>
+      <member refid="class_h_m_s_d_b_access_manager_1_1_h_m_s_database_connection_1aca0015aea27358f1527a069284e93c78" prot="public" virt="non-virtual"><scope>HMSDBAccessManager::HMSDatabaseConnection</scope><name>HMSDatabaseConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

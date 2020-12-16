@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_5acd0999974efcf9285444e791ce31d5" kind="dir">
+    <compoundname>SQL</compoundname>
+    <innerdir refid="dir_bc5b0108231842d24ac643a99600389d">SQL/MSSQL</innerdir>
+    <innerdir refid="dir_0ccb68387d9136c295cc472a658b0e07">SQL/MySQL</innerdir>
+    <innerdir refid="dir_6d50071f1c6d485b5c8884ae1d2d9899">SQL/PostgreSQL</innerdir>
+    <innerdir refid="dir_2dbde417456362e2625356ab30145c6a">SQL/SQLite</innerdir>
+    <innerfile refid="_key_value_list_8cs">KeyValueList.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SQL/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_fb608ef958e8ec41170f80a7f2b6ace8" kind="dir">
+    <compoundname>Dto</compoundname>
+    <innerfile refid="_d_b_connection_info_8cs">DBConnectionInfo.cs</innerfile>
+    <innerfile refid="_result_set_8cs">ResultSet.cs</innerfile>
+    <innerfile refid="_row_8cs">Row.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Dto/"/>
+  </compounddef>
+</doxygen>

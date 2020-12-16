@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.20" xml:lang="en-US">
+  <compounddef id="dir_bc5b0108231842d24ac643a99600389d" kind="dir">
+    <compoundname>SQL/MSSQL</compoundname>
+    <innerfile refid="_ms_sql_database_access_8cs">MsSqlDatabaseAccess.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="SQL/MSSQL/"/>
+  </compounddef>
+</doxygen>
